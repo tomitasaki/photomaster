@@ -14,6 +14,7 @@
 		BA19835F1C7C0122006DEDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA19835D1C7C0122006DEDBC /* LaunchScreen.storyboard */; };
 		BA19836A1C7C0122006DEDBC /* photomasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1983691C7C0122006DEDBC /* photomasterTests.swift */; };
 		BA1983751C7C0122006DEDBC /* photomasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1983741C7C0122006DEDBC /* photomasterUITests.swift */; };
+		BA1984DA1C7C162A006DEDBC /* tanuki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA1984D91C7C162A006DEDBC /* tanuki.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA1983701C7C0122006DEDBC /* photomasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photomasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1983741C7C0122006DEDBC /* photomasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photomasterUITests.swift; sourceTree = "<group>"; };
 		BA1983761C7C0122006DEDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1984D91C7C162A006DEDBC /* tanuki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tanuki.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				BA1983561C7C0122006DEDBC /* ViewController.swift */,
 				BA1983581C7C0122006DEDBC /* Main.storyboard */,
 				BA19835B1C7C0122006DEDBC /* Assets.xcassets */,
+				BA1984D91C7C162A006DEDBC /* tanuki.jpg */,
 				BA19835D1C7C0122006DEDBC /* LaunchScreen.storyboard */,
 				BA1983601C7C0122006DEDBC /* Info.plist */,
 			);
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA19835F1C7C0122006DEDBC /* LaunchScreen.storyboard in Resources */,
+				BA1984DA1C7C162A006DEDBC /* tanuki.jpg in Resources */,
 				BA19835C1C7C0122006DEDBC /* Assets.xcassets in Resources */,
 				BA19835A1C7C0122006DEDBC /* Main.storyboard in Resources */,
 			);
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = photomaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.photomaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = photomaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.photomaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
