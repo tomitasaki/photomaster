@@ -30,10 +30,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wo8-Cd-q8K">
                                 <rect key="frame" x="145" y="538" width="30" height="30"/>
                                 <state key="normal" title="合成"/>
+                                <connections>
+                                    <action selector="processButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3b4-N7-z9f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGB-mA-81r">
                                 <rect key="frame" x="222" y="538" width="90" height="30"/>
                                 <state key="normal" title="アップロード"/>
+                                <connections>
+                                    <action selector="uploadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="63V-XK-STv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

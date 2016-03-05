@@ -9,6 +9,7 @@
 import UIKit
 import Social
 
+
 class ViewController: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
     
     //写真表示用imageview
